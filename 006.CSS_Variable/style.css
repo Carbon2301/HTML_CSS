@@ -1,0 +1,15 @@
+/* Sử dụng lớp giá */
+/* Biến toàn cục */
+:root { 
+    --text-color: green;
+}
+
+h1{
+    /* Biến cục bộ */
+    --my-color: blue;
+    color: var(--my-color);
+}
+
+h2{
+    color: var(--text-color);
+}

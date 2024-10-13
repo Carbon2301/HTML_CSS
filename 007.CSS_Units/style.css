@@ -1,0 +1,26 @@
+/* Giá trị tuyệt đối không thay đối */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+/* %: Giá trị tương đối phụ thuộc vào thẻ chứa nó */
+.box {
+    width: 50%;
+    height: 100px;
+    background-color: red;
+}
+
+/* rem phụ thuộc thẻ html */
+
+html{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+/* em phụ thuộc vào thẻ gần nhất chứa nó */
+
+/* vw - width, vh - height = % kích thuóc trình duyệt*/

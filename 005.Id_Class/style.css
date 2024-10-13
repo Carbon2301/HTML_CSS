@@ -1,0 +1,12 @@
+/* gõ # để select đến id */
+
+#first-heading{
+    color: green;
+}
+
+/* gõ . để select đến class */
+
+.second-heading{
+    color: blue;
+    font-size: 20px;
+}
