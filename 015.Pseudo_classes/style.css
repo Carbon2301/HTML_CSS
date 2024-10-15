@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+}
+
+.box{
+    width: calc(120px/2 + 80%);
+    height: 120px;
+    background: rgb(190,124,157);
+}
+
+/* Lớp giả :root tham chiếu đến chính phần tử gốc là thẻ html  */
+
+/* Lớp giả :hover kích hoạt lên chỉ khi DI CHUỘT VÀO ĐỐI TƯỢNG ĐÓ */
+
+h1:hover{
+    color: red;
+}
+
+.box:hover{
+    background-color: green;
+}
+
+
+/* Lớp giả :active kích hoạt chỉ khi BẤM CHUỘT CÒA ĐỐI TƯỢNG ĐÓ */
+h1:active{
+    color: blue;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}

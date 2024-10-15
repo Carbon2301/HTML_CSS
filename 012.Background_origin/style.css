@@ -1,0 +1,16 @@
+html, body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 20px dashed #ccc;
+    padding: 20px;
+    background-origin: border-box;
+    background-origin: padding-box; /* mặc định đổ từ lớp border */
+}
+

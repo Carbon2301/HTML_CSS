@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+}
+
+.box{
+    width: calc(120px/2 + 80%);
+    height: 120px;
+    background: rgb(190,124,157);
+}
+
+/* attr() thường đi chung với lớp giả pseudo_class */
+
+a::after{
+    content: "("attr(href)")";
+}
+
+.box::after{
+    content: attr(data-title);
+}

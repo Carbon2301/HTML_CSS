@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* contain sẽ lấy kích thước chiều dài nhất bức ảnh rồi tự format */
+    background-size: cover;
+    /* cover không chấp nhận khoảng trống, lấy chiều dài hơn làm 100% */
+}
+

@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+}
+
+.box{
+    width: calc(120px/2 + 80%);
+    height: 120px;
+    background: rgb(190,124,157);
+}
+
+
+.box::before{
+    content:"";  /*Phần không thể thiếu trong phần tử giả*/
+    display: block; /*Tính chất khối*/
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.box::after{
+    content:"Xin chào";  /*Phần không thể thiếu trong phần tử giả*/
+    color: red;
+    display: block; /*Tính chất khối*/
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    
+}
+
+
+h1::first-letter{
+    font-size: 40px;
+    color: red;
+}
+
+h1::first-line{
+    color: blue;
+}
+
+/* ::selection khi bôi chuột vào 1 đoạn thì sẽ đổi màu */
+
+h1::selection{
+    background-color: purple;
+}
+
+/* gõ ::selection để ảnh hưởng đến toàn bộ */
