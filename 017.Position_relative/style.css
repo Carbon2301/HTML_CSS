@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+}
+
+/* Tương đối, không phụ thuộc vào đối tượng nào, lấy chính nó làm gốc */
+
+h1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* top, left, bottom, right chỉ hành động khi có position  */
+}
+
+
+

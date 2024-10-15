@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+}
+
+/* Tuyệt đối, phụ thuộc vào thẻ cha GẦN NHẤT có thuộc tính "position" */
+/* Sử dụng khi muốn căn chỉnh thẻ con theo thẻ cha  */
+.box{
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    position: relative; /*cha, không phân biệt thuộc tính*/
+}
+
+/* 
+.box-child{
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+
+/*Tạo một lớp phủ*/
+
+.box-child{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
