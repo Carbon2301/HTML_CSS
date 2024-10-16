@@ -84,14 +84,17 @@ body {
 
 .sidebar-one {
     flex: 1;
+    order: 1;
 }
 
 .sidebar-two {
     flex: 1;
+    order: 3;
 }
 
 .main-column {
     flex: 3;
+    order: 2;
 }
 
 /* Feature layout */
@@ -134,7 +137,7 @@ body {
     padding: 12px 0 32px 0;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .wrap-layout__item {
@@ -159,7 +162,7 @@ body {
     display: flex;
 }
 
-.center-layout__item {
+.center-layout_item {
     font-size: 42px;
     font-weight: 700;
     /*
@@ -183,6 +186,7 @@ body {
     background-color: #fff;
     display: flex;
     justify-content: space-around;
+    /* align-items: flex-end; */
 }
 
 .chart-layout__item {

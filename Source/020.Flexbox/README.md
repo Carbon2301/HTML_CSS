@@ -8,10 +8,10 @@ Flexbox cung cấp một cách bố trí linh hoạt cho các phần tử con tr
 - **flex-direction**: Xác định hướng của các phần tử flex trong container.
   - Giá trị: `row | column`
 
-- **flex-wrap**: Điều khiển các phần tử có được xếp thành nhiều dòng khi không đủ không gian hay không.
+- **flex-wrap**: Điều khiển các phần tử có được xếp thành nhiều dòng.
   - Giá trị: `nowrap | wrap | wrap-reverse`
 
-- **flex-basis**: Đặt kích thước chiều ngang hoặc chiều dọc main size theo trục main axis.
+- **flex-basis**: Đặt kích thước chiều ngang hoặc chiều dọc "main size" theo trục main axis.
   - Giá trị: `<length>`
 
 - **justify-content**: Căn chỉnh các phần tử dọc theo trục chính (main axis).
