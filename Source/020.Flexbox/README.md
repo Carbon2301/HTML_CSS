@@ -8,25 +8,25 @@ Flexbox cung cấp một cách bố trí linh hoạt cho các phần tử con tr
 - **flex-direction**: Xác định hướng của các phần tử flex trong container.
   - Giá trị: `row | column`
 
-- **flex-wrap**: Điều khiển các phần tử có được xếp thành nhiều dòng.
+- **flex-wrap**: Điều khiển các phần tử có được xếp thành nhiều dòng (container).
   - Giá trị: `nowrap | wrap | wrap-reverse`
 
-- **flex-basis**: Đặt kích thước chiều ngang hoặc chiều dọc "main size" theo trục main axis.
-  - Giá trị: `<length>`
-
-- **justify-content**: Căn chỉnh các phần tử dọc theo trục chính (main axis).
+- **justify-content**: Căn chỉnh các phần tử dọc theo trục chính (container).
   - Giá trị: `flex-start | flex-end | center | space-between | space-around`
 
-- **justify-self**: Căn chỉnh một phần tử con flex item theo trục chính.
+- **align-content**: Căn chỉnh các dòng flex khi chúng chiếm nhiều hơn một dòng theo trục chéo (container).
   - Giá trị: `flex-start | flex-end | center`
 
-- **align-content**: Căn chỉnh các dòng flex khi chúng chiếm nhiều hơn một dòng theo trục chéo (cross axis).
+- **align-items**: Căn chỉnh tất cả các phần tử dọc theo trục chéo (container).
   - Giá trị: `flex-start | flex-end | center`
 
-- **align-self**: Căn chỉnh một phần tử con flex item dọc theo trục chéo.
+- **flex-basis**: Đặt kích thước chiều ngang hoặc chiều dọc "main size" theo trục main axis (item).
+  - Giá trị: `<length>`
+
+- **justify-self**: Căn chỉnh một phần tử con flex item theo trục chính  (item).
   - Giá trị: `flex-start | flex-end | center`
 
-- **align-items**: Căn chỉnh tất cả các phần tử dọc theo trục chéo.
+- **align-self**: Căn chỉnh một phần tử con flex item dọc theo trục chéo (item).
   - Giá trị: `flex-start | flex-end | center`
 
 - **flex-grow**: Xác định khả năng mở rộng của một phần tử trong không gian còn lại của container (main size).
