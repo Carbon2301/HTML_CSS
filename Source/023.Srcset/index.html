@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Huu An </title>
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+        
+
+        <!-- Bai toan 1: Kich thuoc
+            1. Mobile: 50px x 50px
+            2. Tablet: 100px x 100px 
+            3. Dasktop: 200px x 200px 
+        
+        Bai toan 2: DPI
+            - Desktop: 200px x 200px
+
+        Bai toan 3: Noi dung
+            - Desktop: /img/anh-1.jpeg
+            - Mobile: /img/anh-2.jpeg -->
+        <style>
+            .image{
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 1. Resolution switching: Different sizes  -->
+        <!-- <img
+            srcset="./avt-100x100.jpeg 100w, ./avt-200x200.jpeg 200w, ./avt-400x400.jpeg 400w"
+            sizes="(max-width: 575px) 100px, (max-width: 991px) 200px, 400px"
+            src="./avt-400x400.jpeg"
+            alt="Elva dressed as a fairy" /> -->
+
+
+        <!-- 2. resolution switching: Same size, different resolutions -->
+         <!-- <img srcset="./avt-200x200.jpeg 1x, ./avt-400x400.jpeg 2x" 
+         src="./avt-400x400.jpeg" alt=""> -->
+
+         <!-- 3. Art direction -->
+         <picture>
+            <source media="(max-width: 575px)" srcset="./img-small.jpeg" />
+            <img 
+                class="image"
+                src="./img-large.jpeg" 
+                alt="Chris standing up holding his daughter Elva" />
+          </picture>
+    </body>
+</html>
