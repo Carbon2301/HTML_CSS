@@ -9,10 +9,8 @@ VSCode offers many extensions that make writing HTML and CSS easier.
 - Installation:
     1. Open the **Extensions** panel (Ctrl+Shift+X).
     2. Search for **Live Server** and click **Install**.
-    3. After installation, right-click on your HTML file and choose **Open with Live Server** to view the webpage.
 
 ## 2. Additional Resources to Learn HTML and CSS
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML): Official HTML documentation.
 - [W3Schools](https://www.w3schools.com/html/): Free online resource for learning HTML and CSS.
 
